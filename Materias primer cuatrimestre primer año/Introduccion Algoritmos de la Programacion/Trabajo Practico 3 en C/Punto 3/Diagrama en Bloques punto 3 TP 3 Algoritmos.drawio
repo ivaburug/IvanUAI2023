@@ -1,0 +1,151 @@
+<mxfile host="Electron" modified="2023-05-04T00:57:03.862Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.1 Chrome/112.0.5615.87 Electron/24.1.2 Safari/537.36" etag="T1RIkoUPepB8DB1NvJlp" version="21.2.1" type="device">
+  <diagram name="Page-1" id="ocAYI9pDW4dQGQofCPlS">
+    <mxGraphModel dx="712" dy="835" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="CUhzHair_5yWuqLiZI36-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="CUhzHair_5yWuqLiZI36-4" target="CUhzHair_5yWuqLiZI36-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CUhzHair_5yWuqLiZI36-4" value="Inicio" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="100" y="10" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CUhzHair_5yWuqLiZI36-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="CUhzHair_5yWuqLiZI36-6" target="CUhzHair_5yWuqLiZI36-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CUhzHair_5yWuqLiZI36-6" value="Val, Cont,&lt;br&gt;ProPar=1, ProImp=1,&lt;br&gt;&amp;nbsp;SumPar=0, SumImp=0,&lt;br&gt;Sum15, CantPar, CantImp" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="50" y="70" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="CUhzHair_5yWuqLiZI36-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="CUhzHair_5yWuqLiZI36-8" target="CUhzHair_5yWuqLiZI36-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CUhzHair_5yWuqLiZI36-8" value="Cont=1;&lt;br&gt;Cont&amp;lt;=8;&lt;br&gt;Cont++" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="100" y="220" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CUhzHair_5yWuqLiZI36-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="CUhzHair_5yWuqLiZI36-10" target="CUhzHair_5yWuqLiZI36-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CUhzHair_5yWuqLiZI36-10" value="&quot;Ingrese un valor&lt;br&gt;entero&quot;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="320" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CUhzHair_5yWuqLiZI36-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="CUhzHair_5yWuqLiZI36-12" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CUhzHair_5yWuqLiZI36-12" value="Val" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CUhzHair_5yWuqLiZI36-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" edge="1" target="CUhzHair_5yWuqLiZI36-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="235" y="180" as="targetPoint" />
+            <mxPoint x="140" y="180" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zJRK8sMUYYJQOt4oljLq-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CUhzHair_5yWuqLiZI36-20" target="zJRK8sMUYYJQOt4oljLq-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CUhzHair_5yWuqLiZI36-20" value="SumPar += Val" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zJRK8sMUYYJQOt4oljLq-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CUhzHair_5yWuqLiZI36-24" target="zJRK8sMUYYJQOt4oljLq-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CUhzHair_5yWuqLiZI36-24" value="&quot;El promedio de los valores Pares es &quot; ProPar" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" parent="1" vertex="1">
+          <mxGeometry x="440" y="140" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CUhzHair_5yWuqLiZI36-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="CUhzHair_5yWuqLiZI36-25" target="CUhzHair_5yWuqLiZI36-24" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CUhzHair_5yWuqLiZI36-25" value="ProPar = SumPar/CantPar&lt;br&gt;ProImp = SumImp/CantImp" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="240" y="150" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CUhzHair_5yWuqLiZI36-27" value="Fin" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="460" y="440" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zJRK8sMUYYJQOt4oljLq-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zJRK8sMUYYJQOt4oljLq-1" target="zJRK8sMUYYJQOt4oljLq-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zJRK8sMUYYJQOt4oljLq-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zJRK8sMUYYJQOt4oljLq-1" target="zJRK8sMUYYJQOt4oljLq-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zJRK8sMUYYJQOt4oljLq-1" value="Val%2&lt;br&gt;==0" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="510" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zJRK8sMUYYJQOt4oljLq-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zJRK8sMUYYJQOt4oljLq-2" target="CUhzHair_5yWuqLiZI36-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zJRK8sMUYYJQOt4oljLq-2" value="&quot;El valor es par&quot;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="610" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zJRK8sMUYYJQOt4oljLq-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zJRK8sMUYYJQOt4oljLq-4" target="zJRK8sMUYYJQOt4oljLq-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zJRK8sMUYYJQOt4oljLq-4" value="&quot;El valor es Impar&quot;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="510" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zJRK8sMUYYJQOt4oljLq-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zJRK8sMUYYJQOt4oljLq-5" target="zJRK8sMUYYJQOt4oljLq-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zJRK8sMUYYJQOt4oljLq-5" value="SumImp += Val" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zJRK8sMUYYJQOt4oljLq-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zJRK8sMUYYJQOt4oljLq-10" target="CUhzHair_5yWuqLiZI36-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zJRK8sMUYYJQOt4oljLq-10" value="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="40" y="240" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zJRK8sMUYYJQOt4oljLq-12" value="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="360" y="860" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zJRK8sMUYYJQOt4oljLq-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zJRK8sMUYYJQOt4oljLq-16" target="zJRK8sMUYYJQOt4oljLq-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zJRK8sMUYYJQOt4oljLq-16" value="&quot;El promedio de los valores Impares es &quot; ProImp" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="240" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zJRK8sMUYYJQOt4oljLq-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zJRK8sMUYYJQOt4oljLq-19" target="zJRK8sMUYYJQOt4oljLq-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zJRK8sMUYYJQOt4oljLq-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zJRK8sMUYYJQOt4oljLq-19" target="zJRK8sMUYYJQOt4oljLq-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zJRK8sMUYYJQOt4oljLq-19" value="Val =&amp;gt; 15" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="840" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zJRK8sMUYYJQOt4oljLq-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="zJRK8sMUYYJQOt4oljLq-24" target="zJRK8sMUYYJQOt4oljLq-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="1130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zJRK8sMUYYJQOt4oljLq-24" value="Sum15++" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="940" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zJRK8sMUYYJQOt4oljLq-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zJRK8sMUYYJQOt4oljLq-29" target="CUhzHair_5yWuqLiZI36-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zJRK8sMUYYJQOt4oljLq-29" value="&quot;Hubieron &quot; Sum15 &quot;valores ingresaros que superaron 15&quot;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="340" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zJRK8sMUYYJQOt4oljLq-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zJRK8sMUYYJQOt4oljLq-32" target="zJRK8sMUYYJQOt4oljLq-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140" y="920" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="140" y="880" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zJRK8sMUYYJQOt4oljLq-32" value="CantPar++" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="790" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zJRK8sMUYYJQOt4oljLq-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zJRK8sMUYYJQOt4oljLq-34" target="zJRK8sMUYYJQOt4oljLq-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zJRK8sMUYYJQOt4oljLq-34" value="CantImp++" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="710" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

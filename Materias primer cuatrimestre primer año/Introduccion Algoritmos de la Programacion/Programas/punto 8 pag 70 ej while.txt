@@ -1,0 +1,29 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(int argc, char* argv[])
+{
+	int Val{}, Vec, Pro, Suma{}, CantVal{};
+
+	//Declare Vec como la cantidad de Veces que quiero que se repita el for (La cantidad de numeros que quiero ingresar)
+	Vec = 50;
+
+	printf("\nIngrese un valor\n");
+	scanf_s("%d", Val);
+
+	while (Val != 0)
+	{
+		Suma += Val;
+		CantVal++;
+
+		printf("\nIngresa un valor\n");
+		scanf_s("%d", Val);
+	}
+
+	Pro = Suma / CantVal;
+
+	printf("\nSe cargaron %d de valores", CantVal);
+	printf("\nSu promedio es de %d", Pro);
+
+	return 0;
+}
