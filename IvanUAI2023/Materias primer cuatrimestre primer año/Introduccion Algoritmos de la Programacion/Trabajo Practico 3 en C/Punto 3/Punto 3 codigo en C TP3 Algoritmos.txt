@@ -1,0 +1,49 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(int argc, char* argv[])
+{
+	int Val{}, Cont{}, SumPar = 0, SumImp = 0, Sum15{}, Vec{};
+	float PorPar = 1, PorImp = 1, CantPar{}, CantImp{};
+
+	//Declare Vec como la cantidad de Veces que quiero que se repita el for (La cantidad de numeros que quiero ingresar)
+	Vec = 8;
+
+	for (Cont = 1; Cont <= Vec; Cont++)
+	{
+		printf("\nIngrese un valor Entero\n");
+		scanf_s("%d", &Val);
+
+		if (Val % 2 == 0)
+		{
+			printf("\nEl valor es Par\n");
+			SumPar += Val;
+			CantPar++;
+		}
+		else
+		{
+			if (Val == 0)
+			{
+				printf("\nEl valor es 0\n");
+			}
+			else
+			{
+				printf("\nEl valor es Impar\n");
+				SumImp += Val;
+				CantImp++;
+			}
+		}
+		if (Val >= 15)
+		{
+			Sum15++;
+		}
+	}
+	PorPar = SumPar / CantPar;
+	PorImp = SumImp / CantImp;
+
+	printf("\nEl promedio de los valores pares es de %f", PorPar);
+	printf("\nEl promedio de los valores Impares es de %f\n", PorImp);
+	printf("\nHubieron %d valores ingresados que superaron 15\n", Sum15);
+
+	return 0;
+}

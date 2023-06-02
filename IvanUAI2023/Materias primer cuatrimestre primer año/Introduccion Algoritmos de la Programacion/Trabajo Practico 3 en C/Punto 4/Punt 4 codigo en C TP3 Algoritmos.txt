@@ -1,0 +1,54 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(int argc, char* argv[])
+{
+	int Val, Vec, Cont;
+	float Por110 = 1, Por1020 = 1, Por2030 = 1, Por30 = 1, Cont110{}, Cont1020{}, Cont2030{}, Cont30{};
+
+	//Declare Vec como la cantidad de Veces que quiero que se repita el for (La cantidad de numeros que quiero ingresar)
+	Vec = 30;
+
+	for (Cont = 1; Cont <= Vec; Cont++)
+	{
+		printf("\nIngrese un valor Entero.\n");
+		scanf_s("%d", &Val);
+
+		if (Val >= 1 && Val <= 10)
+		{
+			printf("\nEl valor esta entre el 1 y el 10.\n");
+			Cont110 += Val;
+		}
+		if (Val >= 11 && Val <= 20)
+		{
+			printf("\nEl valor esta entre el 10 y el 20.\n");
+			Cont1020 += Val;
+		}
+		if (Val >= 21 && Val <= 30)
+		{
+			printf("\nEl valor esta entre 20 y 30.\n");
+			Cont2030 += Val;
+		}
+		if (Val >= 31)
+		{
+			printf("\nEl valor es mayor a 30.\n");
+			Cont30 += Val;
+		}
+		if (Val == 0)
+		{
+			printf("\nEl valor es menor a 0 y no sera tomado en cuenta en el resultado final.");
+		}
+	}
+
+	Por110 = (Cont110 * 100) / Vec;
+	Por1020 = (Cont1020 * 100) / Vec;
+	Por2030 = (Cont2030 * 100) / Vec;
+	Por30 = (Cont30 * 100) / Vec;
+
+	printf("\nEl porcentaje de valores entre 1 y 10 es de %f", Por110);
+	printf("\nEl porcentaje de valores entre 10 y 20 es de %f", Por1020);
+	printf("\nEl porcentaje de valores entre 20 y 30 es de %f", Por2030);
+	printf("\nEl porcentaje de valores mayores a 30 es de %f", Por30);
+
+	return 0;
+}

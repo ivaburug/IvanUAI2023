@@ -1,0 +1,89 @@
+#include <stdio.h>
+#include <math.h>
+
+int Suma(int a, int b);
+int Resta(int a, int b);
+int Mult(int a, int b);
+int Pot(int a, int b);
+float Div(int a, int b);
+
+int main()
+{
+    int Op{}, a{}, b{}, Res{};
+    float ResF;
+
+    do
+    {
+        printf("\nElija una operacion:\n");
+        printf("1. Suma\n");
+        printf("2. Resta\n");
+        printf("3. Multiplicacion\n");
+        printf("4. Division\n");
+        printf("5. Potencia\n");
+        printf("6. Salir\n\n");
+
+        scanf_s("%d", &Op);
+
+        switch (Op)
+        {
+        case 1:
+            printf("\nIngrese dos numeros enteros a sumar:\n");
+            scanf_s("%d %d", &a, &b);
+            Res = Suma(a, b);
+            printf("El Res de la suma es: %d\n", Res);
+            break;
+        case 2:
+            printf("\nIngrese dos numeros enteros a restar:\n");
+            scanf_s("%d %d", &a, &b);
+            Res = Resta(a, b);
+            printf("El Res de la resta es: %d\n", Res);
+            break;
+        case 3:
+            printf("\nIngrese dos numeros enteros a multiplicar:\n");
+            scanf_s("%d %d", &a, &b);
+            Res = Mult(a, b);
+            printf("El Res de la multiplicacion es: %d\n", Res);
+            break;
+        case 4:
+            printf("\nIngrese dos numeros enteros a dividir:\n");
+            scanf_s("%d %d", &a, &b);
+            ResF = Div(a, b);
+            printf("El Res de la division es: %.2f\n", ResF);
+            break;
+        case 5:
+            printf("\nIngresa dos numeros para hacer la potencia, el primero es indice y el segundo el potenciador\n");
+            scanf_s("%d %d", &a, &b);
+            Res = pow(a, b);
+            printf("\nEl Res de la potencia es %d\n", Res);
+            break;
+        case 6:
+            printf("\nSaliendo del programa...\n");
+            break;
+        default:
+            printf("\nOp invalida, intente nuevamente.\n");
+        }
+    } 
+    while (Op != 6);
+    return 0;
+}
+
+int Suma(int a, int b)
+{
+    return a + b;
+}
+int Resta(int a, int b)
+{
+    return a - b;
+}
+int Mult(int a, int b)
+{
+    return a * b;
+}
+float Div(int a, int b)
+{
+    return a / b;
+}
+int Pot(int a, int b)
+{
+    return a ^ b;
+}
