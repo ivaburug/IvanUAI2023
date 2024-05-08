@@ -1,0 +1,40 @@
+<mxfile host="Electron" modified="2024-04-13T23:32:00.651Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.1.0 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="mOIUIWa0ATaQxvLKovRX" version="24.1.0" type="device">
+  <diagram name="Page-1" id="e2pnhwHPEg3SpXB47wUd">
+    <mxGraphModel dx="670" dy="334" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Mj01IkSEmql-wDUDsAI_-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Mj01IkSEmql-wDUDsAI_-1" target="Mj01IkSEmql-wDUDsAI_-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Mj01IkSEmql-wDUDsAI_-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Mj01IkSEmql-wDUDsAI_-1" target="Mj01IkSEmql-wDUDsAI_-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Mj01IkSEmql-wDUDsAI_-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Mj01IkSEmql-wDUDsAI_-1" target="Mj01IkSEmql-wDUDsAI_-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Mj01IkSEmql-wDUDsAI_-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Mj01IkSEmql-wDUDsAI_-1" target="Mj01IkSEmql-wDUDsAI_-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Mj01IkSEmql-wDUDsAI_-1" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Pilotos&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;del Plata&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="360" y="320" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Mj01IkSEmql-wDUDsAI_-2" value="Pilotos Competitivos" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="500" y="340" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Mj01IkSEmql-wDUDsAI_-4" value="Radio Nakama (Tienda de Componentes Electronicos&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="190" y="340" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Mj01IkSEmql-wDUDsAI_-6" value="D&#39;Agostini Barcos" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="360" y="430" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Mj01IkSEmql-wDUDsAI_-8" value="Electronica EDIMAR" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="360" y="250" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FTUICrdD0E_EbLZ4gYpm-2" value="No Hay competencia directa" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="310" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
