@@ -31,3 +31,18 @@ C:\Users\Ivan. A. Urso\Desktop\Integrador\Integrador 1\Integrador 1\obj\Debug\In
 C:\Users\Ivan. A. Urso\Desktop\Integrador\Integrador 1\Integrador 1\obj\Debug\Integrador 1.csproj.CoreCompileInputs.cache
 C:\Users\Ivan. A. Urso\Desktop\Integrador\Integrador 1\Integrador 1\obj\Debug\Integrador 1.exe
 C:\Users\Ivan. A. Urso\Desktop\Integrador\Integrador 1\Integrador 1\obj\Debug\Integrador 1.pdb
+C:\Users\Ivan. A. Urso\IvanUAI\2024\UAI\Materias primer cuatrimestre, Segundo año\Programacion orientada a objetos\Integrador\Integrador 1\Integrador 1\bin\Debug\Integrador 1.exe.config
+C:\Users\Ivan. A. Urso\IvanUAI\2024\UAI\Materias primer cuatrimestre, Segundo año\Programacion orientada a objetos\Integrador\Integrador 1\Integrador 1\bin\Debug\Integrador 1.exe
+C:\Users\Ivan. A. Urso\IvanUAI\2024\UAI\Materias primer cuatrimestre, Segundo año\Programacion orientada a objetos\Integrador\Integrador 1\Integrador 1\bin\Debug\Integrador 1.pdb
+C:\Users\Ivan. A. Urso\IvanUAI\2024\UAI\Materias primer cuatrimestre, Segundo año\Programacion orientada a objetos\Integrador\Integrador 1\Integrador 1\obj\Debug\Integrador 1.csproj.AssemblyReference.cache
+C:\Users\Ivan. A. Urso\IvanUAI\2024\UAI\Materias primer cuatrimestre, Segundo año\Programacion orientada a objetos\Integrador\Integrador 1\Integrador 1\obj\Debug\Integrador 1.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ivan. A. Urso\IvanUAI\2024\UAI\Materias primer cuatrimestre, Segundo año\Programacion orientada a objetos\Integrador\Integrador 1\Integrador 1\obj\Debug\Integrador_1.Cargar_Empleado.resources
+C:\Users\Ivan. A. Urso\IvanUAI\2024\UAI\Materias primer cuatrimestre, Segundo año\Programacion orientada a objetos\Integrador\Integrador 1\Integrador 1\obj\Debug\Integrador_1.Crear_cuenta.resources
+C:\Users\Ivan. A. Urso\IvanUAI\2024\UAI\Materias primer cuatrimestre, Segundo año\Programacion orientada a objetos\Integrador\Integrador 1\Integrador 1\obj\Debug\Integrador_1.LogIn.resources
+C:\Users\Ivan. A. Urso\IvanUAI\2024\UAI\Materias primer cuatrimestre, Segundo año\Programacion orientada a objetos\Integrador\Integrador 1\Integrador 1\obj\Debug\Integrador_1.InterfazRRHH.resources
+C:\Users\Ivan. A. Urso\IvanUAI\2024\UAI\Materias primer cuatrimestre, Segundo año\Programacion orientada a objetos\Integrador\Integrador 1\Integrador 1\obj\Debug\Integrador_1.Properties.Resources.resources
+C:\Users\Ivan. A. Urso\IvanUAI\2024\UAI\Materias primer cuatrimestre, Segundo año\Programacion orientada a objetos\Integrador\Integrador 1\Integrador 1\obj\Debug\Integrador_1.Usu_Contra.resources
+C:\Users\Ivan. A. Urso\IvanUAI\2024\UAI\Materias primer cuatrimestre, Segundo año\Programacion orientada a objetos\Integrador\Integrador 1\Integrador 1\obj\Debug\Integrador 1.csproj.GenerateResource.cache
+C:\Users\Ivan. A. Urso\IvanUAI\2024\UAI\Materias primer cuatrimestre, Segundo año\Programacion orientada a objetos\Integrador\Integrador 1\Integrador 1\obj\Debug\Integrador 1.csproj.CoreCompileInputs.cache
+C:\Users\Ivan. A. Urso\IvanUAI\2024\UAI\Materias primer cuatrimestre, Segundo año\Programacion orientada a objetos\Integrador\Integrador 1\Integrador 1\obj\Debug\Integrador 1.exe
+C:\Users\Ivan. A. Urso\IvanUAI\2024\UAI\Materias primer cuatrimestre, Segundo año\Programacion orientada a objetos\Integrador\Integrador 1\Integrador 1\obj\Debug\Integrador 1.pdb
