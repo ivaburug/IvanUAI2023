@@ -1,7 +1,0 @@
-La entrega se realizó correctamente.
-Curso: UAI-CM-T-UN-T1-23-01-2023-090-1-B-M-00032997-1, T1-23-01 - INTRODUCCIÓN A LOS ALGORITMOS Y LA PROGRAMACIÓN
-Actividad: TP 1 - Primer programa en C
-
-Fecha de entrega: 22/4/23 1:28
-Remitente: Ivan Alejandro Urso
-Número de confirmación: 782b6394cb0e4783a58bf547763222b9

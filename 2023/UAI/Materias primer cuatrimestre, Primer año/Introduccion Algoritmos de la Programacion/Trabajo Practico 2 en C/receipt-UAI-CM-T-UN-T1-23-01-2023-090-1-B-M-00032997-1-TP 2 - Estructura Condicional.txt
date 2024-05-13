@@ -1,7 +1,0 @@
-La entrega se realizó correctamente.
-Curso: UAI-CM-T-UN-T1-23-01-2023-090-1-B-M-00032997-1, T1-23-01 - INTRODUCCIÓN A LOS ALGORITMOS Y LA PROGRAMACIÓN
-Actividad: TP 2 - Estructura Condicional
-
-Fecha de entrega: 23/4/23 19:19
-Remitente: Ivan Alejandro Urso
-Número de confirmación: acf9432b28c7495dba94757ab1afd08e
