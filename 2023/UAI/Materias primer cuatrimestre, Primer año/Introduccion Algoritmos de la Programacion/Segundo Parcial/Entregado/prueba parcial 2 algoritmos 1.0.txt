@@ -1,0 +1,161 @@
+#include <stdio.h>
+#include <stdlib.h>
+/*
+En una empresa se ingresan los datos de los 10 empleados de la siguiente manera:
+		Codigo del empleado.
+		Categotria (Puede ser del 1 al 4)
+		Cantidad de años de antiguedad
+		mes (1 a 12)
+
+EL ingreso funaliza cuando se ingresa una categoria 0.
+
+El sueldo basico segun la categoria:
+   		Para categoria 1, 3000.
+   		Para categoria 2, 2000.
+   		Para categoria 3, 1000.
+   		Para categoria 4, 500.
+
+El sueldo es la suma del basico segun la categoria mas 100 por año de antiguedad.
+
+Mostrar en pantalla
+   		1. Mostrar por empleado los sueldos pagados por cada empleado.
+   		2. Mostrar por mes los sueldos pagados por empleado.
+   		3. mostrar el promedio de sueldos por mes.
+   		4. Porcentaje que representa el sueldo anual de cada empleado sobre el total pagado.
+   		5. Mostrar sueldos ordenados por categoria.
+   		6. Mostrar los sueldos maximos por mes.
+   		7. Nostrar los sueldos minimos por mes.
+*/
+
+int OpcionMenu, OpcionEmpleado, i, OpcionMenuVariable=0;
+int VectorCodigoEmpleados[11], VectorCategoriaEmpleado[11];
+
+
+void Menu()
+{
+    system("cls");
+    printf("=====================MENU=====================\n");
+    printf("\n[1] Ingresar Codigo de Empleados.\n");
+    printf("[2] Ingresar Categoria por Empleado.\n");
+    printf("[3] Ingresar Antiguedad de los Empleados.\n");
+    printf("[4] Ver Sueldo por Mes por Empleado.\n");
+    printf("[0] Cerrar menu.\n");
+    printf("\n============================================\n");
+    printf("Escribir Opcion: ");
+    scanf("%d", &OpcionMenu);
+}
+
+void SwitchMenu()
+{
+    switch(OpcionMenu)
+    {
+        case 0:
+            return 0;
+            break;
+        case 1:
+            IngresarCodigoEmpleado_1();
+            SwitchEmpleado();
+            break;
+        case 2:
+            IngresarCategoriaEmpleado_2();
+
+            break;
+        case 3:
+
+            break;
+        case 4:
+
+            break;
+    }
+}
+
+void IngresarCodigoEmpleado_1()
+{
+    system("cls");
+    OpcionMenuVariable = 1;
+    printf("================Codigo Empleado================\n");
+    printf("\nElija Empleado: \n");
+    printf("1. \t 2. \t 3. \t 4. \t 5. \t 6. \t 7. \t 8. \t 9. \t 10.\n");
+    printf("\n=============================================\n");
+    scanf("%d", &OpcionEmpleado);
+    SwitchEmpleado();
+}
+
+void SwitchEmpleado()
+{
+    switch(OpcionEmpleado)
+    {
+        case 1:
+            switch(OpcionMenuVariable)
+            {
+                case 1:
+                    printf("\nIngrese Codigo de Empleado numero 1.: ");
+                    scanf("%d", VectorCodigoEmpleados[1]);
+                    break;
+                case 2:
+                    printf("\nIngrese la Categoria del Empleado numero 1.: ");
+                    scanf("%d", VectorCategoriaEmpleado[1]);
+                    break;
+            }
+            break;
+        case 2:
+            printf("\nIngrese Codigo de Empleado numero 2: \n");
+            scanf("%d", VectorCodigoEmpleados[2]);
+            break;
+        case 3:
+            printf("\nIngrese Codigo de Empleado numero 3: \n");
+            scanf("%d", VectorCodigoEmpleados[3]);
+            break;
+        case 4:
+            printf("\nIngrese Codigo de Empleado numero 4: \n");
+            scanf("%d", VectorCodigoEmpleados[4]);
+            break;
+        case 5:
+            printf("\nIngrese Codigo de Empleado numero 5: \n");
+            scanf("%d", VectorCodigoEmpleados[5]);
+            break;
+        case 6:
+            printf("\nIngrese Codigo de Empleado numero 6: \n");
+            scanf("%d", VectorCodigoEmpleados[6]);
+            break;
+        case 7:
+            printf("\nIngrese Codigo de Empleado numero 7: \n");
+            scanf("%d", VectorCodigoEmpleados[7]);
+            break;
+        case 8:
+            printf("\nIngrese Codigo de Empleado numero 8: \n");
+            scanf("%d", VectorCodigoEmpleados[8]);
+            break;
+        case 9:
+            printf("\nIngrese Codigo de Empleado numero 9: \n");
+            scanf("%d", VectorCodigoEmpleados[9]);
+            break;
+        case 10:
+            printf("\nIngrese Codigo de Empleado numero 10: \n");
+            scanf("%d", VectorCodigoEmpleados[10]);
+            break;
+    }
+}
+
+void IngresarCategoriaEmpleado_2()
+{
+    system("cls");
+    OpcionMenuVariable = 2;
+    printf("================Categoria Empleado================\n");
+    printf("\nElija Empleado: \n");
+    printf("1. \t 2. \t 3. \t 4. \t 5. \t 6. \t 7. \t 8. \t 9. \t 10.\n");
+    printf("\n================================================\n");
+    scanf("%d", &OpcionEmpleado);
+    SwitchEmpleado();
+}
+
+int main(int argc, char** argv) {
+
+for(i=1; i<11; i++)
+{
+    VectorCodigoEmpleados[i]=0;
+    VectorCategoriaEmpleado[i]=0;
+}
+    Menu();
+    SwitchMenu();
+}

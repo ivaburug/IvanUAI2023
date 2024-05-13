@@ -1,0 +1,208 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+int plantaBaja[25], plantaAlta[20];
+int ocupadosAlta=0, ocupadosBaja=0, almAlta=0, almBaja=0, recAlta=0, recBaja=0;
+int opcMenu, planta, asiento, alm, recTotal;
+float prom;
+
+void inicializacionVectores () {
+	int i;
+	for (i=0;i<25;i++) {
+		plantaBaja[i]=0;
+	}
+	for (i=0;i<20;i++) {
+		plantaAlta[i]=0;
+	}
+}
+
+void reinicioVariables () {
+	ocupadosAlta=0;
+	ocupadosBaja=0;
+	almAlta=0;
+	almBaja=0;
+	recAlta=0;
+	recBaja=0;
+	recTotal=0;
+}
+
+void menu() {
+	system("cls");
+	printf("------------------- MENU -------------------\n\n");
+	printf("[1] Cargar pasajeros\n");
+	printf("[2] Resumen\n");
+	printf("[3] Reiniciar datos\n\n\n");
+	printf("[0] Salir\n");
+	printf("--------------------------------------------\n");
+	printf("seleccione una opcion: ");
+	scanf("%d",&opcMenu);
+}
+
+void error () {
+	system("cls");
+	printf("opcion invalida\n");
+	system("pause");
+}
+
+void asientosDisponibles (int asientos) {
+	int i;
+	for (i=0;i<asientos;i++) {
+		printf("Asiento %d:", i+1);
+		if (planta==1) {
+			if (plantaBaja[i]==0) {
+				printf("libre\n");
+			} else {
+				printf("ocupado\n");
+			}
+		} else {
+			if (plantaAlta[i]==0) {
+				printf("libre\n");
+			} else {
+				printf("ocupado\n");
+			}
+		}
+	}
+}
+
+void cargaDatos() {
+	system("cls");
+	printf("[1] Planta baja   Valor: $25000\n");
+	printf("[2] Planta alta   Valor: $50000\n\n");
+	printf("elija una opcion: ");
+	scanf("%d", &planta);
+	if (planta==1||planta==2) {
+		if (planta==1) {
+			asientosDisponibles(25);
+		} else {
+			asientosDisponibles(20);
+		}
+		printf("elija un asiento: ");
+		scanf("%d", &asiento);
+		asiento--;
+		if (planta==1&&plantaBaja[asiento]==0||planta==2&&plantaAlta[asiento]==0) {
+			system("cls");
+			printf("Desea el servicio de Almuerzo/cena?\n");
+			printf("[1] Si   Valor: $2500\n");
+			printf("[2] No\n");
+			scanf("%d", &alm);
+			if (alm==1||alm==2) {
+				if (planta==1) {
+					plantaBaja[asiento]=1;
+					if (alm==1) {
+						almBaja++;
+					}
+				} else {
+					plantaAlta[asiento]=1;
+					if (alm==1) {
+						almAlta++;
+					}
+				}
+				} else {
+					error();
+				}		
+		} else {
+			system("cls");
+			printf("Asiento ocupado\n");
+			system("pause");
+		}
+	} else {
+		error();
+	}	
+}
+
+void asientosOcupuados () {
+	int i;
+	
+	//aca estaba el error
+	ocupadosAlta=0;
+	ocupadosBaja=0;
+	
+	for (i=0;i<25;i++) {
+		if (plantaBaja[i]==1) {
+			ocupadosBaja++;
+		}
+	}
+	for (i=0;i<20;i++) {
+		if (plantaAlta[i]==1) {
+			ocupadosAlta++;
+		}
+	}
+}
+
+recaudado () {
+	int i;
+	
+	//aca estaba el error
+	recBaja=0;
+	recAlta=0;
+	
+	recBaja=recBaja+(ocupadosBaja*25000);
+	recAlta=recAlta+(ocupadosAlta*50000);
+	
+	recBaja=recBaja+(almBaja*2500);
+	recAlta=recAlta+(almAlta*2500);
+	
+	recTotal=recBaja+recAlta;
+}
+
+void promedio() {
+	prom=(ocupadosBaja+ocupadosAlta)*100/45;
+}
+
+void resumen () {
+	
+	asientosOcupuados();
+	recaudado();
+	promedio ();
+	
+	system("cls");
+	printf("------------------- resumen -------------------\n\n");
+	printf("Asientos disponibles en planta baja: %d\n", 25-ocupadosBaja);
+	printf("Asientos ocupados en planta baja: %d\n", ocupadosBaja);
+	printf("Almuerzos/cenas en planta baja: %d\n", almBaja);
+	printf("Recaudado en planta baja: %d\n\n", recBaja);
+	printf("Asientos disponibles en planta alta: %d\n", 20-ocupadosAlta);
+	printf("Asientos ocupados en planta alta: %d\n", ocupadosAlta);
+	printf("Almuerzos/cenas en planta alta: %d\n", almAlta);
+	printf("Recaudado en planta alta: %d\n\n", recAlta);
+	printf("Total recaudado: %d\n\n", recAlta+recBaja);
+	printf("Promedio de ocupacion del avion: %.2f\n", prom);
+	if (ocupadosBaja+ocupadosAlta==45) {
+		printf("El avion esta lleno\n");
+	} else {
+		printf("El avion no esta lleno\n");
+	}
+	printf("-----------------------------------------------\n");
+	system("pause");
+	
+}
+
+int main(int argc, char *argv[]) {
+	
+	inicializacionVectores();
+	menu();
+	
+	while (opcMenu!=0) {
+		switch(opcMenu) {
+		case 1:
+			cargaDatos();
+			break;
+		case 2:
+			resumen();
+			break;
+		case 3:
+			inicializacionVectores ();
+			reinicioVariables ();
+			system("cls");
+			printf("Datos eliminados correctamente\n");
+			system("pause");
+			break;
+		default:
+			error();
+			break;
+		}
+		menu();
+	}
+}

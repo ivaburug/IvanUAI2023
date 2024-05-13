@@ -1,0 +1,133 @@
+<mxfile host="Electron" modified="2023-05-05T22:23:40.668Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.8 Chrome/112.0.5615.165 Electron/24.2.0 Safari/537.36" etag="_pDZVKE95T9Dh2t2S3S_" version="21.2.8" type="device">
+  <diagram name="Page-1" id="aoVCBeHjAwDA9ONBkJ4o">
+    <mxGraphModel dx="1557" dy="835" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="MmN_OchnCAdmlSDN5dMQ-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="MmN_OchnCAdmlSDN5dMQ-1" target="MmN_OchnCAdmlSDN5dMQ-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MmN_OchnCAdmlSDN5dMQ-1" value="Inicio" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-680" y="40" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MmN_OchnCAdmlSDN5dMQ-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="MmN_OchnCAdmlSDN5dMQ-2" target="MmN_OchnCAdmlSDN5dMQ-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MmN_OchnCAdmlSDN5dMQ-2" value="Fac, SumFac, SumFacMil, SumFac10Mil" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="-700" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MmN_OchnCAdmlSDN5dMQ-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="MmN_OchnCAdmlSDN5dMQ-5" target="MmN_OchnCAdmlSDN5dMQ-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MmN_OchnCAdmlSDN5dMQ-5" value="&quot;Ingresa el valor de una factura&quot;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" parent="1" vertex="1">
+          <mxGeometry x="-700" y="180" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MmN_OchnCAdmlSDN5dMQ-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="MmN_OchnCAdmlSDN5dMQ-8" target="MmN_OchnCAdmlSDN5dMQ-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MmN_OchnCAdmlSDN5dMQ-8" value="Fac" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="-700" y="250" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MmN_OchnCAdmlSDN5dMQ-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="MmN_OchnCAdmlSDN5dMQ-10" target="MmN_OchnCAdmlSDN5dMQ-25" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MmN_OchnCAdmlSDN5dMQ-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="MmN_OchnCAdmlSDN5dMQ-10" target="MmN_OchnCAdmlSDN5dMQ-33" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MmN_OchnCAdmlSDN5dMQ-10" value="Fac != 0" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-680" y="330" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MmN_OchnCAdmlSDN5dMQ-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="MmN_OchnCAdmlSDN5dMQ-13" target="MmN_OchnCAdmlSDN5dMQ-15" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MmN_OchnCAdmlSDN5dMQ-13" value="&quot;Ingresa el valor de una factura&quot;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" parent="1" vertex="1">
+          <mxGeometry x="-700" y="810" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MmN_OchnCAdmlSDN5dMQ-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="MmN_OchnCAdmlSDN5dMQ-15" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-640" y="940" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MmN_OchnCAdmlSDN5dMQ-15" value="Fac" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="-700" y="880" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MmN_OchnCAdmlSDN5dMQ-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="MmN_OchnCAdmlSDN5dMQ-17" target="MmN_OchnCAdmlSDN5dMQ-13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MmN_OchnCAdmlSDN5dMQ-17" value="SumFac += Fac" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-700" y="750" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MmN_OchnCAdmlSDN5dMQ-22" value="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="-660" y="940" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MmN_OchnCAdmlSDN5dMQ-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="MmN_OchnCAdmlSDN5dMQ-23" target="MmN_OchnCAdmlSDN5dMQ-10" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-640" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MmN_OchnCAdmlSDN5dMQ-23" value="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="-740" y="290" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MmN_OchnCAdmlSDN5dMQ-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="MmN_OchnCAdmlSDN5dMQ-25" target="MmN_OchnCAdmlSDN5dMQ-27" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MmN_OchnCAdmlSDN5dMQ-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="MmN_OchnCAdmlSDN5dMQ-25" target="MmN_OchnCAdmlSDN5dMQ-17" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-540" y="470" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-560" y="470" />
+              <mxPoint x="-560" y="770" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MmN_OchnCAdmlSDN5dMQ-25" value="Fac &amp;gt; 1000" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-680" y="430" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HFJW88Ep0tH9jt8e-lXw-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MmN_OchnCAdmlSDN5dMQ-27" target="HFJW88Ep0tH9jt8e-lXw-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MmN_OchnCAdmlSDN5dMQ-27" value="SumFacMil++" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-700" y="530" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MmN_OchnCAdmlSDN5dMQ-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="MmN_OchnCAdmlSDN5dMQ-33" target="MmN_OchnCAdmlSDN5dMQ-35" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MmN_OchnCAdmlSDN5dMQ-33" value="&quot;La suma de las facturas es de &quot; SumFac" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" parent="1" vertex="1">
+          <mxGeometry x="-515" y="345" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="HFJW88Ep0tH9jt8e-lXw-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MmN_OchnCAdmlSDN5dMQ-35" target="HFJW88Ep0tH9jt8e-lXw-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MmN_OchnCAdmlSDN5dMQ-35" value="&quot;La cantidad de facturas que pasaron el valor de mil fueron &quot; SumFacMil" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" parent="1" vertex="1">
+          <mxGeometry x="-540" y="420" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MmN_OchnCAdmlSDN5dMQ-37" value="Fin" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-475" y="560" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HFJW88Ep0tH9jt8e-lXw-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HFJW88Ep0tH9jt8e-lXw-1" target="HFJW88Ep0tH9jt8e-lXw-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HFJW88Ep0tH9jt8e-lXw-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HFJW88Ep0tH9jt8e-lXw-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-560" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HFJW88Ep0tH9jt8e-lXw-1" value="Fac &amp;gt; 10000" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-680" y="590" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HFJW88Ep0tH9jt8e-lXw-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HFJW88Ep0tH9jt8e-lXw-4" target="MmN_OchnCAdmlSDN5dMQ-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HFJW88Ep0tH9jt8e-lXw-4" value="SumFac10Mil++" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-700" y="690" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HFJW88Ep0tH9jt8e-lXw-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HFJW88Ep0tH9jt8e-lXw-9" target="MmN_OchnCAdmlSDN5dMQ-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HFJW88Ep0tH9jt8e-lXw-9" value="&quot;La cantidad de facturas que pasaron el valor de Diez mil fueron &quot; SumFac10Mil" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="-550" y="490" width="230" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

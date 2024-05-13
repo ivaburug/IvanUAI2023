@@ -1,0 +1,38 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(int argc, char* argv[])
+{
+	int Fac{}, SumFac = 0, SumFacMil = 0, SumFac10Mil = 0, SumFacB = 0;
+
+	printf("\nIngrese el valor de una factura\n");
+	scanf_s("%d", &Fac);
+
+	while (Fac != 0)
+	{
+		if (Fac > 1000)
+		{
+			SumFacMil++;
+		}
+		if (Fac > 10000)
+		{
+			SumFac10Mil++;
+		}
+		if (Fac > 400 && Fac < 700)
+		{
+			SumFacB++;
+		}
+
+		SumFac += Fac;
+
+		printf("\nIngrese el valor de una factura\n");
+		scanf_s("%d", &Fac);
+	}
+
+	printf("\nLa suma de las facturas es de %d\n", SumFac);
+	printf("\nLa cantidad de las facturas que pasaron el valor de mil fueron %d\n", SumFacMil);
+	printf("\nLa cantidad de las facturas que pasaron el valor de Diez Mil fueron %d\n", SumFac10Mil);
+	printf("\nLa cantidad de las facturas que pasaron el valor de 400 y fueron menores a 700 son %d\n", SumFacB);
+
+	return 0;
+}
